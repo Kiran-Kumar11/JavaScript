@@ -15,5 +15,8 @@
 // console.log(otherDate.toLocaleString());
 
 
-let date = new Date()
-console.log(date)
+// let date = new Date()
+// console.log(date.toTimeString())
+
+let timeToday = Date.now()
+console.log(timeToday/1000);
